@@ -1,0 +1,19 @@
+schema {
+	query: Query
+}
+
+type Query {
+	livros: [Book]
+	livroPorId(id:String):Book
+	livroPorIsbn(isbn:String):Book
+
+}
+
+type Book {
+	id: ID!
+	isbn: String
+	titulo: String
+	editora: String
+	autores: [String]
+	dataDePublicacao: String
+}
