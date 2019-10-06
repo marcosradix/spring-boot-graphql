@@ -9,6 +9,10 @@ type Query {
 
 }
 
+type Autor {
+  nome : String
+}
+
 type Book {
 	id: ID!
 	isbn: String

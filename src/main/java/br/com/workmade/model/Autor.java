@@ -13,8 +13,12 @@ public class Autor {
 	}
 
 	public Autor(String nome) {
-		super();
 		this.nome = nome;
+	}
+
+	@Override
+	public String toString() {
+		return "Autor [nome=" + nome + "]";
 	}
 	
 	

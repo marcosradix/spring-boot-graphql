@@ -55,6 +55,7 @@ public class GraphQLService {
 	}
 	
 
+	@SuppressWarnings("unused")
 	private void insertInitialData() {
 		List<Book> asList = Arrays.asList(			
 				new Book(null,"123", "Livro da Lua", "Nossa editora", Arrays.asList(new Autor("Nosso Autor")), "13/12/1988"),
